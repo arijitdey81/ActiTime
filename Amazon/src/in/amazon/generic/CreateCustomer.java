@@ -9,8 +9,8 @@ import org.testng.annotations.Test;
 public class CreateCustomer extends BaseClass {
 	@Test
 	public void createCustomer() {
-		Reporter.log("Create Customer",true);
-		Assert.fail();
+		System.out.println("create customer");
+		System.out.println("login cust");
 	}
 
 }
